@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mona Li Medical — Медицинская одежда и аксессуары</title>
+  <meta name="description" content="Mona Li Medical — медицинская одежда, кроксы и именные аксессуары. Удобно. Стильно. С любовью." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;600&family=Manrope:wght@400;500;600&family=Caveat:wght@500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="#top" class="header__logo">
+        <img src="images/logo.jpg" alt="Mona Li логотип" class="header__logo-img" />
+        <span class="header__logo-text">Mona Li</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#about" class="nav__link">О бренде</a>
+        <a href="#catalog" class="nav__link">Каталог</a>
+        <a href="#personalization" class="nav__link">Персонализация</a>
+        <a href="#how-to-order" class="nav__link">Как заказать</a>
+        <a href="#contacts" class="nav__link">Контакты</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <img src="images/hero-coat.jpg" alt="Медицинская одежда Mona Li" class="hero__img" />
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="container hero__content">
+      <p class="hero__eyebrow fade-in">MONA LI · MEDICAL</p>
+      <h1 class="hero__title fade-in">Ваш бренд<br />в мире медицины</h1>
+      <p class="hero__subtitle fade-in">Медицинская одежда, кроксы и именные аксессуары — <span class="script">с любовью</span>.</p>
+      <div class="hero__buttons fade-in">
+        <a href="https://www.instagram.com/mona.li_medical/" target="_blank" rel="noopener" class="btn btn--primary">Написать в Instagram</a>
+        <a href="tel:+99364896530" class="btn btn--link">Позвонить</a>
+      </div>
+      <p class="hero__stats fade-in">12.6K подписчиков · 376 работ</p>
+    </div>
+    <a href="#about" class="hero__scroll" aria-label="Прокрутить к разделу О бренде">
+      <span class="hero__scroll-chevron"></span>
+    </a>
+  </section>
+
+  <!-- ===== О БРЕНДЕ ===== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <p class="section__label reveal">О бренде</p>
+      <h2 class="section__title reveal">О бренде</h2>
+      <p class="about__text reveal">
+        Mona Li — это медицинская одежда и аксессуары, созданные с заботой о тех, кто заботится о других. Мы делаем каждую деталь именной, чтобы ваш образ был таким же особенным, как и вы. Нам доверяют уже более 12&nbsp;000 врачей.
+      </p>
+      <div class="values">
+        <div class="value-card reveal">
+          <div class="value-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="24" r="22" stroke="#C9A24B" stroke-width="2"/><path d="M24 14c-5.523 0-10 4.477-10 10s4.477 10 10 10 10-4.477 10-10S29.523 14 24 14z" fill="#E8C4C4"/><path d="M20 24l3 3 6-6" stroke="#C9A24B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="value-card__title">Удобство</h3>
+          <p class="value-card__text">Комфорт на смене 24/7 — одежда, в которой приятно работать.</p>
+        </div>
+        <div class="value-card reveal">
+          <div class="value-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="24" r="22" stroke="#C9A24B" stroke-width="2"/><path d="M24 32l-8-8 2-2 6 6 10-10 2 2z" fill="#C9A24B"/><path d="M16 20l8-8 8 8" stroke="#E8C4C4" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="value-card__title">Стиль</h3>
+          <p class="value-card__text">Продуманный дизайн и цвета — выглядите профессионально и стильно.</p>
+        </div>
+        <div class="value-card reveal">
+          <div class="value-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="24" r="22" stroke="#C9A24B" stroke-width="2"/><path d="M24 14v20M14 24h20" stroke="#C9A24B" stroke-width="2.5" stroke-linecap="round"/><circle cx="24" cy="24" r="4" fill="#E8C4C4"/></svg>
+          </div>
+          <h3 class="value-card__title">Индивидуальность</h3>
+          <p class="value-card__text">Имя и монограмма на любом изделии — сделаем вещь по-настоящему вашей.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== КАТАЛОГ ===== -->
+  <section class="catalog section" id="catalog">
+    <div class="container">
+      <p class="section__label reveal">Ассортимент</p>
+      <h2 class="section__title reveal">Каталог</h2>
+      <div class="catalog__grid">
+
+        <a href="https://www.instagram.com/mona.li_medical/" target="_blank" rel="noopener" class="catalog-card reveal">
+          <div class="catalog-card__img-wrap">
+            <img src="images/coat-detail.jpg" alt="Медицинская одежда" loading="lazy" />
+          </div>
+          <span class="catalog-card__name">Медицинская одежда</span>
+        </a>
+
+        <a href="https://www.instagram.com/mona.li_medical/" target="_blank" rel="noopener" class="catalog-card reveal">
+          <div class="catalog-card__img-wrap">
+            <img src="images/crocs-pink.jpg" alt="Crocs и джибитсы" loading="lazy" />
+          </div>
+          <span class="catalog-card__name">Crocs и джибитсы</span>
+        </a>
+
+        <a href="https://www.instagram.com/mona.li_medical/" target="_blank" rel="noopener" class="catalog-card reveal">
+          <div class="catalog-card__img-wrap">
+            <img src="images/brooch-gold.jpg" alt="Именные броши" loading="lazy" />
+          </div>
+          <span class="catalog-card__name">Именные броши</span>
+        </a>
+
+        <a href="https://www.instagram.com/mona.li_medical/" target="_blank" rel="noopener" class="catalog-card reveal">
+          <div class="catalog-card__img-wrap">
+            <img src="images/pins-heart.jpg" alt="Значки и пины" loading="lazy" />
+          </div>
+          <span class="catalog-card__name">Значки и пины</span>
+        </a>
+
+        <a href="https://www.instagram.com/mona.li_medical/" target="_blank" rel="noopener" class="catalog-card reveal">
+          <div class="catalog-card__img-wrap">
+            <img src="images/bukja-velvet.jpg" alt="Косметички bukja" loading="lazy" />
+          </div>
+          <span class="catalog-card__name">Косметички bukja</span>
+        </a>
+
+        <a href="https://www.instagram.com/mona.li_medical/" target="_blank" rel="noopener" class="catalog-card reveal">
+          <div class="catalog-card__img-wrap">
+            <img src="images/bag-monogram.jpg" alt="Сумки с монограммой" loading="lazy" />
+          </div>
+          <span class="catalog-card__name">Сумки с монограммой</span>
+        </a>
+
+        <a href="https://www.instagram.com/mona.li_medical/" target="_blank" rel="noopener" class="catalog-card reveal">
+          <div class="catalog-card__img-wrap">
+            <img src="images/thermos-tooth.jpg" alt="Термосы и кружки" loading="lazy" />
+          </div>
+          <span class="catalog-card__name">Термосы и кружки</span>
+        </a>
+
+        <a href="https://www.instagram.com/mona.li_medical/" target="_blank" rel="noopener" class="catalog-card reveal">
+          <div class="catalog-card__img-wrap">
+            <img src="images/giftset-white.jpg" alt="Подарочные наборы" loading="lazy" />
+          </div>
+          <span class="catalog-card__name">Подарочные наборы</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ПЕРСОНАЛИЗАЦИЯ ===== -->
+  <section class="personalization section" id="personalization">
+    <div class="container personalization__inner">
+      <div class="personalization__text">
+        <p class="section__label reveal">Именные изделия</p>
+        <h2 class="section__title reveal">Сделаем именным</h2>
+        <p class="personalization__desc reveal">
+          Имя врача на халате, брошь с инициалами, косметичка с монограммой — мы превращаем обычную вещь в особенный подарок. Идеально на выпускной, День медика или просто чтобы порадовать коллегу.
+        </p>
+        <div class="personalization__actions reveal">
+          <a href="https://www.instagram.com/mona.li_medical/" target="_blank" rel="noopener" class="btn btn--primary">Заказать персонализацию</a>
+          <a href="#gallery" class="btn btn--link">Смотреть примеры</a>
+        </div>
+      </div>
+      <div class="personalization__photo reveal">
+        <img src="images/orchid-gifts.jpg" alt="Персонализированные подарки Mona Li" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ГАЛЕРЕЯ ===== -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <p class="section__label reveal">Портфолио</p>
+      <h2 class="section__title reveal">Наши работы</h2>
+      <div class="gallery__grid">
+        <a href="https://www.instagram.com/mona.li_medical/" target="_blank" rel="noopener" class="gallery__item reveal">
+          <img src="images/doctor-smile.jpg" alt="Врач в форме Mona Li" loading="lazy" />
+          <div class="gallery__overlay"><svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" fill="white"/></svg></div>
+        </a>
+        <a href="https://www.instagram.com/mona.li_medical/" target="_blank" rel="noopener" class="gallery__item reveal">
+          <img src="images/crocs-collection.jpg" alt="Коллекция кроксов" loading="lazy" />
+          <div class="gallery__overlay"><svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" fill="white"/></svg></div>
+        </a>
+        <a href="https://www.instagram.com/mona.li_medical/" target="_blank" rel="noopener" class="gallery__item reveal">
+          <img src="images/pins-cards.jpg" alt="Пины и карточки" loading="lazy" />
+          <div class="gallery__overlay"><svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" fill="white"/></svg></div>
+        </a>
+        <a href="https://www.instagram.com/mona.li_medical/" target="_blank" rel="noopener" class="gallery__item reveal">
+          <img src="images/giftbox-sweets.jpg" alt="Подарочная коробка" loading="lazy" />
+          <div class="gallery__overlay"><svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" fill="white"/></svg></div>
+        </a>
+        <a href="https://www.instagram.com/mona.li_medical/" target="_blank" rel="noopener" class="gallery__item reveal">
+          <img src="images/crocs-charms.jpg" alt="Кроксы с шармами" loading="lazy" />
+          <div class="gallery__overlay"><svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" fill="white"/></svg></div>
+        </a>
+        <a href="https://www.instagram.com/mona.li_medical/" target="_blank" rel="noopener" class="gallery__item reveal">
+          <img src="images/stethoscope.jpg" alt="Стетоскоп" loading="lazy" />
+          <div class="gallery__overlay"><svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" fill="white"/></svg></div>
+        </a>
+        <a href="https://www.instagram.com/mona.li_medical/" target="_blank" rel="noopener" class="gallery__item reveal">
+          <img src="images/crocs-black.jpg" alt="Кроксы чёрные" loading="lazy" />
+          <div class="gallery__overlay"><svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" fill="white"/></svg></div>
+        </a>
+        <a href="https://www.instagram.com/mona.li_medical/" target="_blank" rel="noopener" class="gallery__item reveal">
+          <img src="images/giftset-white.jpg" alt="Подарочный набор" loading="lazy" />
+          <div class="gallery__overlay"><svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" fill="white"/></svg></div>
+        </a>
+      </div>
+      <div class="gallery__cta reveal">
+        <a href="https://www.instagram.com/mona.li_medical/" target="_blank" rel="noopener" class="btn btn--ghost">Смотреть весь Instagram →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== КАК ЗАКАЗАТЬ ===== -->
+  <section class="how-to section" id="how-to-order">
+    <div class="container">
+      <p class="section__label reveal">Просто и быстро</p>
+      <h2 class="section__title reveal">Как заказать</h2>
+      <div class="steps">
+        <div class="step reveal">
+          <div class="step__num">01</div>
+          <h3 class="step__title">Напишите нам</h3>
+          <p class="step__text">В Instagram-директ или позвоните — мы всегда на связи.</p>
+        </div>
+        <div class="step__arrow reveal">→</div>
+        <div class="step reveal">
+          <div class="step__num">02</div>
+          <h3 class="step__title">Выберите товар</h3>
+          <p class="step__text">И укажите имя для персонализации — мы всё оформим.</p>
+        </div>
+        <div class="step__arrow reveal">→</div>
+        <div class="step reveal">
+          <div class="step__num">03</div>
+          <h3 class="step__title">Подтвердите заказ</h3>
+          <p class="step__text">Согласуем детали и сроки — вы всегда знаете, что происходит.</p>
+        </div>
+        <div class="step__arrow reveal">→</div>
+        <div class="step reveal">
+          <div class="step__num">04</div>
+          <h3 class="step__title">Получите доставку</h3>
+          <p class="step__text">Аккуратно упакуем и отправим — как подарок самому себе.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ФУТЕР / КОНТАКТЫ ===== -->
+  <footer class="footer" id="contacts">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#top" class="footer__logo">
+          <img src="images/logo.jpg" alt="Mona Li" class="footer__logo-img" />
+          <div>
+            <span class="footer__logo-name">Mona Li</span>
+            <span class="footer__logo-sub">MEDICAL</span>
+          </div>
+        </a>
+        <p class="footer__tagline">Удобно. Стильно. <span class="script">С любовью</span>.</p>
+      </div>
+      <div class="footer__links">
+        <a href="https://www.instagram.com/mona.li_medical/" target="_blank" rel="noopener" class="footer__contact">
+          <svg class="footer__icon" viewBox="0 0 24 24" fill="none"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" fill="currentColor"/></svg>
+          @mona.li_medical
+          <span class="footer__social-stats">12.6K подписчиков · 376 постов</span>
+        </a>
+        <a href="tel:+99364896530" class="footer__contact">
+          <svg class="footer__icon" viewBox="0 0 24 24" fill="none"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="currentColor"/></svg>
+          +993 64 89 65 30
+        </a>
+      </div>
+      <div class="footer__cta">
+        <a href="https://www.instagram.com/mona.li_medical/" target="_blank" rel="noopener" class="btn btn--primary">Написать в Instagram</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2026 Mona Li Medical. Сайт сделан с любовью 💕</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
